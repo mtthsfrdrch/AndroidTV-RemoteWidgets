@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTV RemoteWidgets</string>
+
+    <string name="widget_volume_title">AndroidTV Volume</string>
+    <string name="widget_media_title">AndroidTV Media</string>
+    <string name="widget_nav_title">AndroidTV Navigation</string>
+    <string name="widget_power_title">AndroidTV Power</string>
+
+    <string name="widget_power_stb">STB</string>
+    <string name="widget_power_tv">TV</string>
+    <string name="widget_power_avr">AVR</string>
+
+
+
+</resources>

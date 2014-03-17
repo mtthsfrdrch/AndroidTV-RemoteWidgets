@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.mtthsfrdrch.an3mote.appwidget"
+    android:versionCode="060"
+    android:versionName="0.6.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <receiver
+            android:name=".VolumeAppWidget"
+            android:label="@string/widget_volume_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_volume" />
+        </receiver>
+
+        <receiver
+            android:name=".MediaAppWidget"
+            android:label="@string/widget_media_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_media" />
+        </receiver>
+
+        <receiver
+            android:name=".NavAppWidget"
+            android:label="@string/widget_nav_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_nav" />
+        </receiver>
+
+        <receiver
+            android:name=".PowerAppWidget"
+            android:label="@string/widget_power_title" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_power" />
+        </receiver>
+
+    </application>
+
+</manifest>

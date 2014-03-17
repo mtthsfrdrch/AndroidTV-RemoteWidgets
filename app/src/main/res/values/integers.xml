@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="manual_default_port">9551</integer>
+    <integer name="zoom_threshold">20</integer>
+    <integer name="dpad_threshold">80</integer>
+    <integer name="scroll_amount">20</integer>
+    <integer name="duration_progress_anim">200</integer>
+</resources>
