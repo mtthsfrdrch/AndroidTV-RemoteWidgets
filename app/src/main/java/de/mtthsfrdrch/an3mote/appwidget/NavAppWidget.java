@@ -4,7 +4,6 @@ import android.app.PendingIntent;
 import android.widget.RemoteViews;
 
 import de.mtthsfrdrch.an3mote.Keycode;
-import de.mtthsfrdrch.an3mote.appwidget.R;
 
 /**
  * Created by mtthsfrdrch on 1/13/14.
