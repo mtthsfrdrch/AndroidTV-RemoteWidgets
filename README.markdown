@@ -1,5 +1,5 @@
 # AndroidTV RemoteWidgets
-![AndroidTV RemoteWidgets](https://github.com/mtthsfrdrch/AnroidTV-RemoteWidgets/raw/master/app/src/main/ic_launcher-web.png "AndroidTV RemoteWidgets logo")
+![AndroidTV RemoteWidgets](https://github.com/mtthsfrdrch/AnroidTV-RemoteWidgets/raw/master/app/src/main/res/drawable-xxhdpi/ic_launcher.png "AndroidTV RemoteWidgets logo")
 
 Android AppWidgets sending keypresses to GoogleTV/AndroidTV-devices using An3Mote 
 
