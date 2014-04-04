@@ -11,7 +11,7 @@
     <string name="widget_power_stb">STB</string>
     <string name="widget_power_tv">TV</string>
     <string name="widget_power_avr">AVR</string>
-
+    <string name="installAn3mote"><u>Install An3Mote</u></string>
 
 
 </resources>
